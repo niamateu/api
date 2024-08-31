@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load django_bootstrap5 %}
+
+{% block title %}
+新規作成・編集
+{% endblock title %}
+
+{% block content %}
+    {% if id %}
+    <h1>編集</h1>
+    <form action="{% url 'api:edit' id=id %}" method="post">
+    {% else %}
+    <h1>新規登録</h1>
+    <form action="{% url 'api:add' %}" method="post">
+    {% endif %}
+        {% csrf_token %}
+        {% bootstrap_form form layout='horizontal' %}
+        <div class="form-group">
+            <button type="submit" class="btn btn-outline-primary my-2" >保存</button>
+        </div>
+    </form>
+    <a href="{% url 'api:index' %}" class="btn btn-outline-primary my-2">戻る</a>
+{% endblock content %}
