@@ -15,7 +15,7 @@ https://niamateu.pythonanywhere.com/api/foods/
 - django-bootstrap
 - python-dotenv
 - VSCode
-- pythonanywhere
+- PythonAnywhere
 
 ## :gear: アプリ機能
 
