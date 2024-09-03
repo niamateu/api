@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['.pythonanywhere.com', 'niamateu.pythonanywhere.com']
+ALLOWED_HOSTS = ['.pythonanywhere.com',]
 
 # Application definition
 
