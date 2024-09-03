@@ -19,6 +19,8 @@ https://niamateu.pythonanywhere.com/api/foods/
 
 ## :gear: アプリ機能
 
+非常食の消費期限を管理できます
+
 ### 1、品物の登録
 
 ![new](https://github.com/user-attachments/assets/444ee11f-f880-4be9-bd84-a23c05b7d8d2)
