@@ -1,4 +1,4 @@
-## :gear: アプリURL
+## :gear: 期限管理アプリURL
 
 https://niamateu.pythonanywhere.com/api/foods/
 
